@@ -2,7 +2,7 @@
 import SupabaseListener from '@/utils/supabase-listener';
 import SupabaseProvider from '@/utils/supabase-provider';
 import './globals.css';
-import { createServerClient } from '../utils/supabase-server';
+import { createServerClient } from '@/utils/supabase-server';
 
 import type { Database } from '@/lib/database.types';
 import type { SupabaseClient } from '@supabase/auth-helpers-nextjs';
