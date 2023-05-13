@@ -12,9 +12,9 @@ Then create a lib directory
 
 Then run
 
-`npx supabase gen types typescript --project-id YOUR_PROJECT_ID > lib/database.types.ts `
+`npx supabase gen types typescript --project-id abc123 > lib/database.types.ts `
 
-Where you find your project ID on your supabase project
+Where abc13 is your project ID on supabase
 
 ## Getting Started
 
