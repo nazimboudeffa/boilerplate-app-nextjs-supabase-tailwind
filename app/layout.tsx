@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import SupabaseProvider from '@/app/supabase-provider'
 
 const inter = Inter({ subsets: ['latin'] })
 

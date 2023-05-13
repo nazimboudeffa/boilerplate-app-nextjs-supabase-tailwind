@@ -1,5 +1,21 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Generating types
+
+To generate the types you have to create an access token on you distant supabase project
+
+`npx supabase login`
+
+Provide the Access Token
+
+Then create a lib directory
+
+Then run
+
+`npx supabase gen types typescript --project-id YOUR_PROJECT_ID > lib/database.types.ts `
+
+Where you find your project ID on your supabase project
+
 ## Getting Started
 
 First, run the development server:
