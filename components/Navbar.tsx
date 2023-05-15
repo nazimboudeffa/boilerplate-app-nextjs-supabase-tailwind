@@ -11,7 +11,7 @@ function Navbar () {
                 <li><a>Protected</a></li>
             </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+            <a className="btn btn-ghost normal-case text-xl" href="/">daisyUI</a>
         </div>
         <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -20,7 +20,7 @@ function Navbar () {
             </ul>
         </div>
         <div className="navbar-end">
-            <a className="btn">Login</a>
+            <a className="btn" href="/login">Login</a>
         </div>
         </div>
     )
